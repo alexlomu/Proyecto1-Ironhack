@@ -1,0 +1,57 @@
+@media  (max-width: 600px){
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    header h1 {
+        text-align: center;
+        background-color: #333; /* Fondo del título */
+        color: #fff; /* Color del texto */
+        padding: 10px; /* Espacio alrededor del texto */
+        border-radius: 8px; /* Bordes redondeados */
+    }
+    
+    .history,
+    .movies {
+        margin-bottom: 30px;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .list {
+        flex: 1;
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .list li {
+        margin-bottom: 10px;
+    }
+    
+    img {
+        max-width: 50%;
+        margin-left: 20px;
+        border-radius: 8px;
+    }
+    
+    a {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+        text-decoration: none;
+        background-color: #333; /* Fondo del enlace */
+        color: #fff; /* Color del texto del enlace */
+        padding: 10px; /* Espacio alrededor del enlace */
+        border-radius: 8px; /* Bordes redondeados */
+    }
+    
+  }
+  
+

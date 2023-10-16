@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.item {
+    text-align: center;
+    width: 45%; /* Ajuste del tamaño del item */
+    display: inline-block; /* Mostrar elementos en línea */
+    margin: 1%; /* Margen entre elementos */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho */
+}
+
+.item img {
+    width: 100%; /* Las imágenes ocupan todo el ancho del elemento */
+    height: 200px; /* Establece la altura deseada */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    border-radius: 8px;
+}
+
+.item h3 {
+    margin-top: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
